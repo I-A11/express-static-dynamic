@@ -1,3 +1,3 @@
-# Learning backend web development course
+## Learning backend web development course
 
 Instructor: Maximilian Schwarzmüller
