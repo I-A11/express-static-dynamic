@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Test",
+    "address": "48 NAVIGATOR ST",
+    "cuisine": "Italian",
+    "website": "https://italian.com",
+    "description": "It's awesome"
+  },
+  {
+    "name": "Test 2",
+    "address": "Sydney - NSW",
+    "cuisine": "Aussie",
+    "website": "https://aussie.com",
+    "description": "It's very good"
+  }
+]
