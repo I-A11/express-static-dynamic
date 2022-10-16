@@ -12,5 +12,12 @@
     "cuisine": "Aussie",
     "website": "https://aussie.com",
     "description": "It's very good"
+  },
+  {
+    "name": "Reastaurant3",
+    "address": "48 NAVIGATOR ST",
+    "cuisine": "Indian",
+    "website": "https://aussie.com",
+    "description": "Not bad"
   }
 ]
