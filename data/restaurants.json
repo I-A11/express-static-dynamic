@@ -1,5 +1,6 @@
 [
   {
+    "id": "r1",
     "name": "Test",
     "address": "48 NAVIGATOR ST",
     "cuisine": "Italian",
@@ -7,6 +8,7 @@
     "description": "It's awesome"
   },
   {
+    "id": "r2",
     "name": "Test 2",
     "address": "Sydney - NSW",
     "cuisine": "Aussie",
@@ -14,10 +16,19 @@
     "description": "It's very good"
   },
   {
-    "name": "Reastaurant3",
+    "id": "r3",
+    "name": "Restaurant3",
     "address": "48 NAVIGATOR ST",
     "cuisine": "Indian",
     "website": "https://aussie.com",
     "description": "Not bad"
+  },
+  {
+    "name": "Mr Kersho",
+    "address": "1 De Meyrick Avenue",
+    "cuisine": "Egyptian",
+    "website": "https://Egy.com",
+    "description": "The best one",
+    "id": "cd49e3c8-512d-4f02-83b7-82bf03ce27f0"
   }
 ]
