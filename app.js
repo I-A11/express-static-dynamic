@@ -39,8 +39,6 @@ app.get("/restaurants/:id", function (req, res) {
       return res.render("restaurants-detail", { restaurant: restaurant });
     }
   }
-
-  res.render("404");
 });
 
 app.get("/recommend", function (req, res) {
@@ -50,13 +48,11 @@ app.get("/recommend", function (req, res) {
 app.post("/recommend", function (req, res) {
   const restaurant = req.body;
   restaurant.id = uuid.v4();
-  const filePath = path.join(__dirname, "data", "restaurants.json");
+  const restaurants = getStoreRestaurant();
 
-  const fileData = fs.readFileSync(filePath);
-  const storedRestaurants = JSON.parse(fileData);
+  restaurants.push(restaurant);
 
-  storedRestaurants.push(restaurant);
-  fs.writeFileSync(filePath, JSON.stringify(storedRestaurants));
+  storeRestaurants(restaurants);
 
   res.redirect("/confirm");
 });
